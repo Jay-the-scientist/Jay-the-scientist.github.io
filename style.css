@@ -41,7 +41,7 @@ header {
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
   width: 100%;
-  padding: 15px;
+  padding: 0px;
   text-align: center;
   transition: opacity 0.3s;
   opacity: 0;
