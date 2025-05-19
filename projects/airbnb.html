@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Projects | Jay the Scientist</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <h1>Smart Monitoring Dashboard for Airbnb Hosts</h1>
+    <p>Real-time IoT data tracking for enhanced property oversight</p>
+  </header>
+
+  <main class="project-content">
+    <section class="summary">
+      <h2>Overview</h2>
+      <p>This project simulates an IoT system designed to help Airbnb hosts monitor their properties remotely using various environmental and occupancy sensors. The system collects data from motion detectors, audio sensors, water leak detectors, door contact sensors, temperature sensors, and air quality monitors. All data is stored in a MongoDB database and visualized through a Flask dashboard. The dashboard alerts users to recent activity and potential issues, such as leaks, loud noises, or poor air quality, making it an effective tool for managing property risks while improving guest safety and experience.</p>
+    </section>
+
+    <section class="visuals">
+      <h2>Images & Screenshots</h2>
+      <img src="images/project1-detail.jpg" alt="Project Screenshot" style="max-width: 100%; border-radius: 8px;" />
+      <!-- Add more screenshots or diagrams as needed -->
+    </section>
+
+    <section class="features">
+      <h2>Key Features</h2>
+      <ul>
+        <li>Simulated sensor data from multiple IoT devices relevant to short-term rentals</li>
+        <li>MongoDB backend to store time-series data with JSON-like structure</li>
+        <li>Flask dashboard displaying real-time alerts and recent activity summaries</li>
+        <li>Conditional logic for generating warnings (e.g., excessive noise or temperature anomalies)</li>
+        <li>Modular architecture for easily extending to new sensor types or properties</li>
+        <!-- Add or modify bullets for this project -->
+      </ul>
+    </section>
+
+    <section class="tech-stack">
+      <h2>Technologies Used</h2>
+      <p>Python, Flask, MongoDB, Pymongo, JavaScript, HTML/CSS, Requests, Simulated IoT Data Pipelines</p>
+    </section>
+
+    <section class="challenges">
+      <h2>Challenges & Lessons</h2>
+      <p>The project required careful planning around data modeling for MongoDB to efficiently store and retrieve sensor event streams. I also learned how to design alert logic to flag conditions that matter to a host, such as fire, flooding, gunshot detection, and unapproved entry. This work improved my skills in backend integration, dashboard development, and real-time data monitoring.</p>
+    </section>
+
+    <section class="cta">
+      <h2>Explore More</h2>
+      <p><a href="https://github.com/yourusername/project-repo" target="_blank">View the code on GitHub</a></p>
+    </section>
+  </main>
+</body>
+</html>
