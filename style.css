@@ -142,8 +142,8 @@ h2 {
   padding: 0 10px;
 }
 .strength-card {
-  flex: 1;
-  min-width: 180px;
+  flex: 1 1 0;
+  min-width: 150px;
   background-color: #fff;
   padding: 20px;
   border-radius: 12px;
