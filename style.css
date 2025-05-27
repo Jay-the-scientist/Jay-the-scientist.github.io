@@ -132,21 +132,25 @@ h2 {
 }
 
 .strengths-grid {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  max-width: 1000px;
+  flex-wrap: nowrap;
+  overflow-x: auto; /* optional: allows scroll if too small */
+  max-width: 100%;
   margin: 0 auto;
+  padding: 0 10px;
 }
-
 .strength-card {
+  flex: 1;
+  min-width: 180px;
   background-color: #fff;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  max-width: 15%;
-
+  text-align: left;
 }
+
 
 .strength-card h3 {
   margin-bottom: 10px;
