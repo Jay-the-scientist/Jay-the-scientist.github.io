@@ -73,6 +73,8 @@ h2 {
 
 .intro-section {
   padding: 40px 20px;
+  background: #f4f4f4;
+
 }
 
 .intro-container {
@@ -83,6 +85,8 @@ h2 {
   flex-wrap: wrap;
   max-width: 1000px;
   margin: 0 auto;
+  background: #f4f4f4;
+
 }
 
 .profile-pic {
@@ -95,6 +99,8 @@ h2 {
 
 .intro-text {
   max-width: 600px;
+  background: #f4f4f4;
+
 }
 
 .intro-text h1 {
